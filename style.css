@@ -1,0 +1,163 @@
+body {
+    font-family: 'Agency FB' 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, orange, #ffffff, green);
+    color: #333;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header {
+    background: linear-gradient(to right, orange, #ffffff, green);
+    color: black;
+    font-family: 'Algerian', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 15px 0;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+nav {
+    background: linear-gradient(to right, #640000, #000000, #640000);
+    padding: 1px 0;
+    text-align: center;
+}
+
+nav h2 {
+    color: #fff;
+}
+
+.episode-btn a {
+    background: linear-gradient(to right, #000000, #640000, #000000);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.9s ease;
+}
+
+.episode-btn a:hover {
+    background: linear-gradient(to right, #640000, #000000, #640000);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.episode {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.episode h2 {
+    background: linear-gradient(to right, #000000, #2ea192, #000000);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.foot_cont1 {
+    line-height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+.foot_cont1 p {
+    color: #a1a1a1;
+}
+
+.foot_cont1 a {
+    color: #28dcdc;
+    text-decoration: none;
+}
+
+.foot_cont1 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+    header {
+        font-size: 12px;
+    }
+
+    nav {
+        background: linear-gradient(to right, #640000, #000000, #640000);
+        padding: 0 0;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .episode-btn a {
+        background: linear-gradient(to right, #000000, #640000, #000000);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: background-color 0.9s ease;
+        font-size: 8px;
+    }
+
+    .episode-btn a:hover {
+        background: linear-gradient(to right, #640000, #000000, #640000);
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+
+    .episode {
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .episode h2 {
+        background: linear-gradient(to right, #000000, #2ea192, #000000);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .foot_cont1 {
+        font-size: 10px;
+    }
+}
